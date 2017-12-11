@@ -1,0 +1,132 @@
+body{
+    background-color: white 
+}
+hgroup{
+    color:red;
+    background-color: gray;
+    padding:70px;
+
+}
+figure{
+    position:absolute;
+    left:300px;
+    top:5px;
+}
+h1{
+    position:absolute;
+    left:150px;
+    top:5px;
+}
+h2{
+    position:absolute;
+    left:150px;
+    top:50px;
+}
+
+
+
+
+section{
+    float: left;
+    width: 600px;
+}
+.contacts{
+    position:absolute;
+    left:600px;
+    top:0px;
+    margin:0;
+}
+h4{
+    color:red;
+}
+.experience-details{
+    color:gray;
+}
+.experience-date-separator{
+    color:red;
+}
+.contact-type{
+    float: left;
+    width:110px;
+    color:white;
+    background-color: red;
+    margin:0;
+}
+.contact-value{
+   float: right;
+    width: 635px;
+    color:red;
+    background-color: black;
+    margin:0;
+   
+}
+
+
+#contact h3{
+   display: none;
+}  
+h3::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: red;
+}  
+.skills-primary {
+    display: block;
+    padding: 10px;
+        
+}
+.skills-secondary {
+    display: block;
+    padding: 10px;
+}
+
+.skill{
+    background-color: gray;
+    margin: 10px;
+}
+[data-skill="5"] span{
+        width: 50%;
+        height:100%;
+        background-color: red;
+        display: block;
+}
+[data-skill="1"] span{
+    width:10%;
+    height:100%;
+    background-color: red;
+    display: block;
+}
+[data-skill="9"] span{
+    width: 90%;
+    height:100%;
+    background-color: red;
+    display: block;
+}
+[data-skill="7"] span{
+    width: 70%;
+    height:100%;
+    background-color: red;
+    display: block;
+}
+[data-skill="3"] span{
+    width: 30%;
+    height:100%;
+    background-color: red;
+    display: block;
+}
+.experience-details::before {
+        content: "In";
+}
+.skills-secondary::before { 
+        content: "other ";
+}
+.skills-primary::before{
+    content: "Main";   
+}
+
+
